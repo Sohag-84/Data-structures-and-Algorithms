@@ -1,4 +1,4 @@
-package ArmStrongNumber;
+package Problem_solve;
 
 public class ThreeDigitArmstrongNumber {
     public static void main(String[] args) {

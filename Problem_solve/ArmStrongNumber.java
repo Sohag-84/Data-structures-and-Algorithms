@@ -1,4 +1,4 @@
-package ArmStrongNumber;
+package Problem_solve;
 
 import java.util.Scanner;
 
