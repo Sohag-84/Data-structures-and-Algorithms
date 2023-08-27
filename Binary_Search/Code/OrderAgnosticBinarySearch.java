@@ -2,7 +2,7 @@ package Binary_Search.Code;
 
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
-        int[] ascArr = { -12, 1, 5, 7, 8, 9, 11, 13, 22, 30 };
+        //int[] ascArr = { -12, 1, 5, 7, 8, 9, 11, 13, 22, 30 };
         int[] dscArr = { 40, 33, 30, 23, 22, 20, 15, 7, 2 };
         int result = orderAgnosticBinarySearch(dscArr, 33);
 
