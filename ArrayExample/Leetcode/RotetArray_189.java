@@ -1,6 +1,4 @@
 package ArrayExample.Leetcode;
-
-
 //https://leetcode.com/problems/rotate-array/
 
 public class RotetArray_189 {
