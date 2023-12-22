@@ -1,6 +1,5 @@
 package ArrayExample.Leetcode;
 
-import java.util.Arrays;
 
 //https://leetcode.com/problems/rotate-array/
 
