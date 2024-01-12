@@ -9,7 +9,7 @@ public class SetMismatch_645 {
     }
 
     static int[] findErrorNums(int[] nums) {
-       // int arr[] = new int[2];
+        // int arr[] = new int[2];
         int i = 0;
         while (i < nums.length) {
             int correctPosition = nums[i] - 1;
