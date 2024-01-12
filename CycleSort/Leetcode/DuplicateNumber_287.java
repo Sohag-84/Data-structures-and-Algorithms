@@ -1,6 +1,6 @@
 package CycleSort.Leetcode;
 
-//https://leetcode.com/problems/find-the-duplicate-number/
+//https://leetcode.com/problems/find-the-duplicate-number/description/
 
 public class DuplicateNumber_287 {
     public static void main(String[] args) {
