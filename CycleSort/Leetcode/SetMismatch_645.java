@@ -9,7 +9,7 @@ public class SetMismatch_645 {
     }
 
     static int[] findErrorNums(int[] nums) {
-        int arr[] = new int[2];
+       // int arr[] = new int[2];
         int i = 0;
         while (i < nums.length) {
             int correctPosition = nums[i] - 1;
@@ -22,14 +22,15 @@ public class SetMismatch_645 {
 
         for (int index = 0; index < nums.length; index++) {
             if (index + 1 != nums[index]) {
-                for (int j = 0; j < arr.length - 1; j++) {
-                    arr[j] = nums[index];
-                    arr[j + 1] = index + 1;
-                }
+                return new int[] { nums[index], index + 1 };
+                // for (int j = 0; j < arr.length - 1; j++) {
+                // arr[j] = nums[index];
+                // arr[j + 1] = index + 1;
+                // }
             }
         }
-
-        return arr;
+        return new int[] { -1, -1 };
+        // return arr;
     }
 
     static void swap(int nums[], int first, int second) {
