@@ -17,6 +17,7 @@ public class DuplicateNumber_287_2 {
                 if (arr[i] != arr[currectIndex]) {
                     swap(arr, i, currectIndex);
                 } else {
+                    //this is your answer
                     return arr[i];
                 }
             } else {
