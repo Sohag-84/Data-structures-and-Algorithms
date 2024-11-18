@@ -1,4 +1,4 @@
-package Practice_Problem;
+package Problem_solve;
 
 public class ReverseNumber {
     public static void main(String[] args) {

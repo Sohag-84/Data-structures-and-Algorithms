@@ -18,7 +18,7 @@ public class ThreeDigitArmstrongNumber {
             int rem = n % 10;
             int cube = rem * rem * rem;
             sum += cube;
-            n /= 10;
+            n = n / 10;
         }
         return sum == original;
     }
