@@ -5,7 +5,7 @@ package Binary_Search.Problem_solve;
 public class CellingOfNumber {
     public static void main(String[] args) {
         int[] arr = { -12, 1, 5, 7, 8, 9, 11, 13, 22, 30 };
-        int result = cellingNumber(arr, -22);
+        int result = cellingNumber(arr, 14);
 
         if (result >= 0) {
             System.out.println("Celling of target item: " + arr[result]);

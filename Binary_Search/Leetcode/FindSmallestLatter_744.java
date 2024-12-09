@@ -1,7 +1,7 @@
 package Binary_Search.Leetcode;
 
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-public class FindSmallestNumber_744 {
+public class FindSmallestLatter_744 {
     public static void main(String[] args) {
         char[] letters = { 'c', 'f', 'j' };
 
