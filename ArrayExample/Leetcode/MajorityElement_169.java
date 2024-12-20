@@ -38,7 +38,7 @@ public class MajorityElement_169 {
     }
 
     /// solve problem using array sort
-    /// but it show time limit exception 
+    /// but it show time limit exception
     /// when array is so long
     static int majorElement(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
