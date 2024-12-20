@@ -3,8 +3,8 @@ package Binary_Search.Code;
 public class SearchFromInfinityArray {
     public static void main(String[] args) {
         int[] arr = { 3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170 };
-        int target = 10;
-        
+        int target = 170;
+
         System.out.println(findAns(arr, target));
     }
 
@@ -20,6 +20,12 @@ public class SearchFromInfinityArray {
             // double the box value
             // end = previous end + sizeOfBox * 2
             end = end + (end - start + 1) * 2;
+
+            // ensure `end` does not go out of bounds
+            if (end >= arr.length) {
+                end = arr.length - 1;
+                break;
+            }
             start = newStart;
         }
 
