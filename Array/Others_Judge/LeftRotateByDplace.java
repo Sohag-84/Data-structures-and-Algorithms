@@ -1,5 +1,7 @@
 package Array.Others_Judge;
 
+// https://www.geeksforgeeks.org/problems/reversal-algorithm5340/1
+
 import java.util.*;
 
 public class LeftRotateByDplace {
