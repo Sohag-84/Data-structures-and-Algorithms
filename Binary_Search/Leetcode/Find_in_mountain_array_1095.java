@@ -9,7 +9,7 @@ public class Find_in_mountain_array_1095 {
         System.out.println(result);
     }
 
-   static int search(int[] arr, int target) {
+    static int search(int[] arr, int target) {
         int peak = peakIndexInMountainArray(arr);
         int firstTry = orderAgnosticBinarySearch(arr, target, 0, peak);
         if (peak != -1) {
