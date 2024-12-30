@@ -1,4 +1,4 @@
-package Array.Others_Judge;
+package Others_Judge;
 
 // https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278?leftPanelTabValue=PROBLEM
 

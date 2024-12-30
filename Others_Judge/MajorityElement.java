@@ -1,4 +1,4 @@
-package Array.Others_Judge;
+package Others_Judge;
 
 // https://www.naukri.com/code360/problems/majority-element_6783241?leftPanelTabValue=PROBLEM
 
@@ -9,7 +9,6 @@ public class MajorityElement {
     }
 
     public static int majorityElement(int[] v) {
-        // Write your code here
         int candidate = 0;
         int vote = 0;
 

@@ -1,4 +1,4 @@
-package Array.Others_Judge;
+package Others_Judge;
 
 // https://www.geeksforgeeks.org/problems/reversal-algorithm5340/1
 

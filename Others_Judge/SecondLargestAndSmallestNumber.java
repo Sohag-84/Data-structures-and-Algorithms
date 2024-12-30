@@ -1,4 +1,4 @@
-package Array.Others_Judge;
+package Others_Judge;
 
 ///https://www.naukri.com/code360/problems/ninja-and-the-second-order-elements_6581960
 
@@ -12,7 +12,6 @@ public class SecondLargestAndSmallestNumber {
     }
 
     public static int[] getSecondOrderElements(int n, int[] a) {
-        // Write your code here.
         int sLargest = getSecondLargest(a, n);
         int sSmallest = getSecondSmallest(a, n);
         int[] result = new int[2];
