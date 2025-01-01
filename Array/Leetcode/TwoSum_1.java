@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TwoSum_1 {
     public static void main(String[] args) {
-        int arr[] = { 12, 7, 11, 2, 15 };
+        int arr[] = { 2,7,11,15 };
         int arr2[] = { 0, 1, 2, 5, 7, 9 };
         int target = 9;
         System.out.println("All types of array result: " + Arrays.toString(twoSum(arr, target)));
